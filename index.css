@@ -1,0 +1,389 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contenar {
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav {
+  z-index: 999;
+  position: fixed;
+  width: 100%;
+  display: flex;
+  border-bottom: 1px solid #8b8b8b;
+  margin-bottom: 30px;
+  background-color: white;
+}
+.logo {
+  width: 50%;
+  padding: 25px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.link {
+  width: 50%;
+}
+ul {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  gap: 25px;
+  padding: 25px;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+}
+a:hover {
+  color: #1576d6;
+}
+
+header {
+  margin-top: 81px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+  /* gap: 50px; */
+}
+.title {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  align-items: center;
+  width: 50%;
+  margin: 0;
+}
+
+.image {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image img {
+  width: 600px;
+}
+h1 {
+  width: 100%;
+  font-size: 80px;
+}
+p {
+  font-size: 30px;
+}
+section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img-sec {
+  width: 180px;
+  height: 180px;
+}
+.h1-sec {
+  font-size: 40px;
+  margin: 15px;
+}
+.psec {
+  font-size: 30px;
+}
+
+.width {
+  width: 500px;
+}
+.card {
+  border: none;
+  width: 30%;
+  margin-top: 60px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.card-title {
+  text-align: start;
+}
+
+.link i {
+  display: none;
+}
+.clients {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  margin-top: 30px;
+  flex-wrap: nowrap;
+}
+.card-clients {
+  width: Fixed (315px) px;
+  height: Hug (317px) px;
+  padding: 30px 50px 30px 30px;
+  gap: 10px;
+  border: 1.5px solid #1576d6;
+  opacity: 0px;
+}
+.img-clints {
+  width: 30%;
+}
+.img-clints img {
+  width: 90px;
+  border: 10px solid #e5eaf400;
+  border-radius: 90%;
+}
+.star {
+  width: 70%;
+}
+.roc-clints {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.i {
+  font-size: 20px;
+}
+.icons i {
+  font-size: 20px;
+}
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.title-form {
+  width: 50%;
+}
+.form {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.text,
+.email {
+  width: 530px;
+  height: 69px;
+  padding: 21px 30px 21px 30px;
+  gap: 10px;
+  opacity: 0px;
+  background-color: #f3f3f3;
+  outline: none;
+  border: none;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.area {
+  font-size: 20px;
+  font-weight: 600;
+  width: 530px;
+  height: 231px;
+  padding: 21px 30px 21px 30px;
+  gap: 10px;
+  opacity: 0px;
+  background-color: #f3f3f3;
+  outline: none;
+  border: none;
+  padding: 10px;
+}
+.sub {
+  font-size: 20px;
+  width: 199px;
+  height: 66px;
+  padding: 18px 64px 18px 64px;
+  gap: 10px;
+  opacity: 0px;
+  background-color: #2d2d2d;
+  color: white;
+  outline: none;
+  border: none;
+  margin-right: 325px;
+}
+.h1-form {
+  width: 60%;
+  font-size: 52px;
+  text-align: start;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.p-form {
+  text-align: start;
+  width: 60%;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.icon-form i {
+  text-align: start;
+  font-size: 30px;
+  padding: 10px;
+  margin-top: 20px;
+}
+span {
+  color: #1576d6;
+}
+/* responsef */
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 0) and (max-width: 425px) {
+  nav {
+    width: 100%;
+    position: fixed;
+  }
+  .link i {
+    display: flex;
+    justify-content: end;
+    font-size: 40px;
+  }
+  .link {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  ul li {
+    display: none;
+  }
+  .logo {
+    width: 100%;
+    font-size: 40px;
+  }
+
+  header {
+    margin: 190px 0 0 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .image {
+    order: 2;
+    width: 100%;
+    height: 40vh;
+    margin: 10px;
+    margin-bottom: 0;
+  }
+  .image img {
+    width: 100%;
+    top: 11px;
+    margin-top: 191px;
+  }
+  .title {
+    margin-bottom: 159px;
+    text-align: center;
+    /* height: 20vh; */
+    width: 100%;
+    font-size: 20px;
+    order: 1;
+  }
+  .title h1 {
+    font-size: 74px;
+    width: 100%;
+    text-align: center;
+    display: inline;
+  }
+  .title p {
+    font-size: 47px;
+    width: 100%;
+  }
+  .card {
+    margin-top: 150px;
+    width: 90%;
+  }
+  h1 {
+    margin-top: 5px;
+    font-size: 16px;
+    display: inline;
+  }
+  .clients {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .h1-form {
+    width: 100%;
+  }
+  .p-form {
+    font-size: 35px;
+    text-align: center;
+    width: 100%;
+  }
+  .title-form {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+}
+
+@media (min-width: 0) and (max-width: 768px) {
+  section {
+    margin-top: 180px;
+    width: 100%;
+
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (min-width: 768) and (max-width: 1024px) {
+  nav {
+    width: 100%;
+    display: block;
+  }
+  header {
+    width: 90%;
+  }
+  .link {
+    justify-content: flex-end;
+  }
+  section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+/* responsef */
